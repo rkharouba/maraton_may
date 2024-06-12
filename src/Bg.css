@@ -1,0 +1,16 @@
+.bg_cont{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 400px;
+    border-radius: 20px;
+    background-color: #222A34;
+    position: relative;
+}
+
+
+.close_red{
+    left: 20px;
+    top: 20px;
+    position: absolute;
+}
