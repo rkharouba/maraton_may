@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Aduma;
+    src: url(./fonts/Aduma\ Regular.ttf);
+  }
+
 .bg_cont{
     width: 800px;
     height: 800px;
@@ -13,4 +18,70 @@
     left: 20px;
     top: 20px;
     position: absolute;
+}
+
+.header_title{
+    color: white;
+    text-align: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    font-size: 33px;
+    font-family: Aduma;
+ }
+
+ .header_formats{
+    color: #ffffff8c;
+    direction: rtl;
+    left: 154px;
+    position: absolute;
+    font-size: 13px;
+    top: 42px;
+ }
+ .upload_img_btn{
+    background-color: #475366;
+    color: white;
+    border: 0;
+    padding: 8px;
+    border-radius: 20px;
+    width: 128px;
+    margin-left: 11px;
+    text-align: right;
+    padding-right: 15px;
+    background-image: url(./assets/Upload.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+ }
+
+ .right_div{
+    width: 30%;
+    margin-right: 12px;
+    background-color: #2F3A4B;
+    border-radius: 18px;
+ }
+ .left_div{
+    width: 66%;
+    background-color: #2F3A4B;
+    border-radius: 18px;
+ }
+
+ .middle_cont{
+    width: 100%;
+    height: 610px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+    margin-top: 10px;
+ }
+
+ .footer{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    margin-right: 28px;
+    margin-top: 22px;
+ }
+
+.banner{
+    width: 77%
 }
