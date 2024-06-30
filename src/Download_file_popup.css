@@ -3,10 +3,12 @@
     background-color: white;
     width: 700px;
     height: 400px;
-    position: absolute;
-    top: 528px;
-    left: 176px;
+    position: relative;
+    top: -585px;
     border-radius: 10px;
+    z-index: 3;
+    margin: 0 auto;
+    display: block;
 }
 .top_img{
     width: 80px;
